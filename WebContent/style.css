@@ -1,0 +1,97 @@
+input.button1{
+	background-color:#D3D3D3;
+	color:#000000;
+	border-color:#B0C4DE;
+	font-size:17;
+}
+
+input.button2{
+	background-color:#D3D3D3;
+	color:#000000;
+	border-color:#B0C4DE;
+	font-size:15;
+}
+
+input.button3{
+	/**font-size: 1.4em;*/
+	font-weight: bold;
+	padding: 10px 30px;
+	color: #FFF;
+	background: #248;
+	border-style: none;
+}
+
+table.layout{
+	position:absolute;
+	 top:20%;
+	 left:25%;
+}
+
+table.tableSample{
+	/* サイズ指定 */
+	width: 480px;
+
+	/* 枠線の指定 */
+	border-style: none;
+
+	/* マージンの一括指定(top right bottom left) マージン:ボックスとボックスの間隔*/
+	margin: 5px;
+
+	/* 各セルの枠線表示指定( 隣のセルの枠線と重ねて表示 ) */
+	border-collapse: collapse;
+}
+
+th.thSample {
+	/* セルの背景色指定 */
+	background-color: #ccccff;
+
+	/* 枠線の一括指定(色　太さ(標準)　枠線(実線)) */
+	border: #ccccff medium solid;
+
+	/* パディングの一括指定(top right bottom left)
+	   パディング:ボックスの内容とボックスの枠線の間隔 */
+	padding: 2px;
+}
+
+td.tdSample{
+	/* 枠線の一括指定(色　太さ(標準)　枠線(実線)) */
+	border: #ccccff medium solid;
+
+	/* フォント指定 */
+	font-style: normal;
+
+	/* 色指定 */
+	color: black;
+
+	/* 表示位置の指定 */
+	text-align: center;
+
+	/* 文字間隔の指定 */
+	letter-spacing: 2px;
+
+	/* パディングの一括指定(top right bottom left) パディング:ボックスの内容とボックスの枠線の間隔 */
+	padding: 2px;
+}
+
+select.haba{
+	width:100px;
+}
+
+div.iti{
+	position:absolute;
+	top:30%;
+	left:35%;
+}
+
+tr.width{
+	background-color:#D3D3D3;
+}
+
+td.syoukai{
+	width:20%;
+}
+
+td.jutyu{
+	width: 40%;
+}
+

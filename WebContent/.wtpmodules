@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-modules id="moduleCoreId">
+    <wb-module deploy-name="ZaikoKanriSystem">
+        <module-type module-type-id="jst.web">
+            <version>2.3</version>
+            <property name="context-root" value="ZaikoKanriSystem"/>
+            <property name="java-output-path" value="/bin/"/>
+        </module-type>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/JavaSource"/>
+        <wb-resource deploy-path="/" source-path="/WebContent"/>
+        <wb-resource deploy-path="/LogIn.jsp" source-path="WebContent/LogIn.jsp"/>
+        <wb-resource deploy-path="/kekka.jsp" source-path="WebContent/kekka.jsp"/>
+        <wb-resource deploy-path="/WEB-INF/web.xml" source-path="WebContent/WEB-INF/web.xml"/>
+        <wb-resource deploy-path="/META-INF/MANIFEST.MF" source-path="WebContent/META-INF/MANIFEST.MF"/>
+    </wb-module>
+</project-modules>
